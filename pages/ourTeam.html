@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" type="text/css" media="all" />
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" media="all" />
+
+    <!--      Custom CSS      -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <title>Stone City Digital</title>
+  </head>
+<body>
+
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav bluebg">
+		<a class="orangetx" id="logo" href="../index.html">Stone City Digital</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks" class="whitebg">
+			<a class="whitetx bluebgfade" href="../index.html">Home</a>
+			<a class="whitetx bluebgfade" href="services.html">Services</a>
+			<a class="whitetx bluebgfade" href="ourTeam.html">Our Team</a>
+			<a class="whitetx bluebgfade" href="contact.html">Contact</a>
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon whitetx bluebg" onclick="toggle()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+  <main>
+    <h1 class="ourTeam">Our Team</h1>
+
+    <div class="bio-cards">
+      <a href="teammembers/contentDirector.html">
+        <div class="bio-card">
+          <img class="round-pic" src="../img/emply0.jpg" alt=""/>
+          <h1 class="bluetxfade">Content Director</h1>
+          <p class="blacktx">I have a passion for creating authentic stories that paint a picture in the minds of viewers and consumers that goes deeper than a surface interaction. I've worked as a one man show on complicated projects as well as a group lead when the situation called for a larger team. My strengths revolve around photography and creative direction, producing, and team management. </p>
+        </div>
+      </a>
+
+      <a href="teammembers/leadGraphics.html">
+      <div class="bio-card">
+        <img class="round-pic" src="../img/emply1.jpg" alt=""/>
+        <h1 class="bluetxfade">Lead Graphics</h1>
+        <p class="blacktx">Dedicated. Ambitious. Sort of nerdy (I read UX specs for fun). Opinionated, and able to deliver and defend them. Social. Creative. Direct. I rebuild cars into new ones to tackle projects and manage them. Pattern savant. Fan of two wheeled therapy. Animated. Engaged. My heart belongs to my signmaking and litho careers. Apprenticed. Vintage camera collector. Polaroid pioneer. Pirate. Researcher. Presenter. Coke over Pepsi. Star Wars over Star Trek. New Media junkie. Print is dead.</p>
+      </div>
+      </a>
+
+      <a href="teammembers/uiuxDev.html">
+        <div class="bio-card">
+          <img class="round-pic" src="../img/emply2.jpg" alt=""/>
+          <h1 class="bluetxfade">UI/UX Developer</h1>
+          <p class="blacktx">Everything is an experience - some are just designed to feel better. Summary: I’m an audio geek who who’s fascinated by immersive experiences and web design. With a focus on web standards, semantic HTML, and modular Javascript: I now create compelling UI's and web apps utilizing powerful API’s.</p>
+        </div>
+      </a>
+
+      <a href="teammembers/softwareDev.html">
+        <div class="bio-card">
+          <img class="round-pic" src="../img/emply4.jpg" alt=""/>
+          <h1 class="bluetxfade">Software Developer</h1>
+          <p class="blacktx">Full stack Software Engineer who loves problem solving and has a creative mindset to design aesthetically pleasing web applications. Involved in collaboration programming with developers using Github. Experience building applications in Ruby on Rails, Javascript, React, Redux, HTML, and CSS.</p>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer class="footer-wrap">
+    <img src="../img/logo.png" alt="Stone City Digital Logo" />
+    <form action="action_page.php" method="post">
+      <div class="container graybg">
+        <h2 class="bluetx">Subscribe to our Newsletter</h2>
+        <p class="bluetx">Stay connected.</p>
+      </div>
+
+      <div class="container">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+      </div>
+
+      <div class="container">
+        <input class="bluebg" type="submit" value="Subscribe">
+      </div>
+    </form>
+    <div>
+      <a class="facebook contact_social" href="#"><img src="../img/facebook.svg" alt="" height="35px" width="auto"/></a>
+      <a class="twitter contact_social" href="#"><img src="../img/twitter.svg" alt="" height="35px" width="auto" /></a>
+      <a class="instagram contact_social" href="#"><img src="../img/instagram.svg" alt="" height="35px" width="auto" /></a>
+    </div>
+    <p>Lafayette, Indiana 2020</p>
+  </footer>
+
+  <!--  GSAP CDN JavaScript    -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+
+  <!--   Custom JavaScript    -->
+  <script src="../js/script.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

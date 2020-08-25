@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" type="text/css" media="all" />
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" media="all" />
+
+    <!--      Custom CSS      -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <title>Stone City Digital</title>
+  </head>
+<body>
+
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav bluebg">
+		<a class="orangetx" id="logo" href="../index.html">Stone City Digital</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks" class="whitebg">
+			<a class="whitetx bluebgfade" href="../index.html">Home</a>
+			<a class="whitetx bluebgfade" href="services.html">Services</a>
+			<a class="whitetx bluebgfade" href="ourTeam.html">Our Team</a>
+			<a class="whitetx bluebgfade" href="contact.html">Contact</a>
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon whitetx bluebg" onclick="toggle()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+  <main>
+
+		<form action="" method="POST" class="decor whitebg">
+      <div class="form-inner">
+        <h1 class="bluetx">Contact Us</h1>
+        <input class="bluetx" type="text" placeholder="Name">
+        <input class="bluetx" type="email" placeholder="Email">
+        <textarea class="bluetx" placeholder="Message..." rows="5"></textarea>
+        <button class="bluebg whitetx" type="submit" value="contact">Submit</button>
+      </div>
+    </form>
+
+  </main>
+
+  <footer class="footer-wrap">
+    <img src="../img/logo.png" alt="Stone City Digital Logo" />
+    <form action="action_page.php" method="post">
+      <div class="container graybg">
+        <h2 class="bluetx">Subscribe to our Newsletter</h2>
+        <p class="bluetx">Stay connected.</p>
+      </div>
+
+      <div class="container">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+      </div>
+
+      <div class="container">
+        <input class="bluebg" type="submit" value="Subscribe">
+      </div>
+    </form>
+    <div>
+      <a class="facebook contact_social" href="#"><img src="../img/facebook.svg" alt="" height="35px" width="auto"/></a>
+      <a class="twitter contact_social" href="#"><img src="../img/twitter.svg" alt="" height="35px" width="auto" /></a>
+      <a class="instagram contact_social" href="#"><img src="../img/instagram.svg" alt="" height="35px" width="auto" /></a>
+    </div>
+    <p>Lafayette, Indiana 2020</p>
+  </footer>
+
+  <!--  GSAP CDN JavaScript    -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+
+  <!--   Custom JavaScript    -->
+  <script src="../js/script.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

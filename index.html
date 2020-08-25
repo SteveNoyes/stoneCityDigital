@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+		<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" type="text/css" media="all" />
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" media="all" />
+
+    <!--      Custom CSS      -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <title>Stone City Digital</title>
+  </head>
+<body class="whitebg">
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav bluebg">
+		<a class="orangetx" id="logo" href="index.html">Stone City Digital</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks" class="whitebg">
+			<a class="whitetx bluebgfade" href="pages/services.html">Services</a>
+			<a class="whitetx bluebgfade" href="pages/ourTeam.html">Our Team</a>
+			<a class="whitetx bluebgfade" href="pages/contact.html">Contact</a>
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon whitetx bluebg" onclick="toggle()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+  <div class="hero">
+    <div class="coreIdeas">
+  		<a id="plan" href="#planning" class="planning whitetx" onclick="plan()">Planning</a>
+  		<a id="comm" href="#jumpto" class="communicating whitetx" onclick="comm()">Communication</a>
+  		<a id="mainten" href="#maintenance" class="maintenance whitetx" onclick="mainten()">Maintenance</a>
+    </div>
+  </div>
+
+  <main>
+
+    <div class="short_about">
+      <img src="img/logo.png" alt="Stone City Digital Logo" />
+      <p>We are located in fabulous Las Vegas Nevada. We have over 15 years in business and offer web dev, seo, website hosting and a lot more. With offices in both Henderson and Downtown Las Vegas, we are able to meet with you Monday – Friday at our offices or yours to discuss your digital marketing needs. Our style has always been no pressure and no sales gimmicks. We are always up-front on costs, time and deliverables. Contact us today for a quick chat about your goals.</p>
+    </div>
+    <div class="hidnGraph">
+      <h1 class="mainGraphs bluetx">Whether you are hands on or hands off, communication is the key to building.</h1>
+      <p>We are a full-service Digital Marketing Company helping businesses reach their goals with essential digital marketing tools. Build a better and stronger online presence with a website built for conversion, search engine optimization, paid advertising, social media, and software and services that will make it easier for customers to find and trust your business online while saving you precious resources like time and money.</p>
+    </div>
+
+    <div class="articleContainer" id="artCont">
+      <div class="firstGraph">
+        <h1 class="mainGraphs bluetx" id="planning">Without a plan, it's just a dream.</h1>
+        <p>In order to stay competitive, both small and medium sized businesses need to harness the power of digital marketing, and that is where we come in. Our team of experts know how to design a strategy that is tailored to meet your personal needs and can increase overall sales. We take the time to get to know your business and outline a plan that maximizes your strong points and strengthens your weaknesses so you can get your brand noticed.</p>
+      </div>
+  		<div class="secondGraph">
+  			<h1 class="mainGraphs bluetx" id="jumpto">Whether you are hands on or hands off, communication is the key to building.</h1>
+        <p>We are a full-service Digital Marketing Company helping businesses reach their goals with essential digital marketing tools. Build a better and stronger online presence with a website built for conversion, search engine optimization, paid advertising, social media, and software and services that will make it easier for customers to find and trust your business online while saving you precious resources like time and money.</p>
+  		</div>
+  		<div class="thirdGraph">
+        <h1 class="mainGraphs bluetx" id="maintenance">Tech is changing fast, keep up to speed.</h1>
+        <p id="maintenanceGraph">We will sit down with you to get to know your business and assess your competitors so we can create a plan to attract traffic using a campaign that combines various techniques such as website development, SEO, paid advertising, and social media interactions. We value our clients and take pride in delivering high-quality products that help your business get ahead and stay ahead.</p>
+      </div>
+    </div>
+
+    <h2 class="secondArtContLabel">Services</h2>
+    <div class="secondArtCont">
+      <div class="art">
+        <h2>Our methodology</h2>
+        <p>If you’re going to boldly strive to be better every day, blasting past best practices and fashioning brand-new, tricked-out better practices, you darn well better have a fancy-pants methodology, a slicker-than-slick process or a performance-proven approach–you know, a buzzwordy thing that helps you kill it for clients over and over again on the daily. Well, we call that buzzwordy thing: Think/Make/Market/Measure. It’s the process we use to dive into every new engagement, and it’s also how we iterate to achieve creative digital performance marketing results every single day.</p>
+      </div>
+      <div class="art">
+        <h2>The way we think</h2>
+        <p>Now, we could throw a bunch of edgy, highbrow, thought-leadership babble at you here, but we won’t. Because we understand behind every great brand is a great strategy. And great strategic thinking starts with a simple, all-too-human act: Listening. We listen to you, to your people, to your customers, to your competitors, to your suppliers, to the press and social media channels, to the nice folks who clean your offices at night, and to your FedEx guy, if the opportunity presents. Because listening makes ideas happen. When data slams full-speed into gut-level intuition, sparks fly, intellects collide, and loving fierce debate gives way to fertile common ground. That’s when new potentials introduce themselves, barriers step gingerly aside, and brave, deliberate paths to success stretch out before us. Hello, living strategy!</p>
+      </div>
+      <div class="art">
+        <h2>Our measurements</h2>
+        <p>There are people in this world for whom statistics and data collection are honest-to-goodness passions. The kind of people who utilize terms like “algorithmic shift” in their everyday speech, and who can turn complex data into pure unblinking opportunity. The kind of big-brained, analyst-optimizers who thrive here at Noble Studios. Armed with a crystal-clear articulation of your business goals, a set of mutually crafted key performance indicators, and an arsenal of tools and methodologies that would give most mortals a migraine, these dauntless detectives of insight are here to help you implement your brand strategy into the digital marketplace, creating measurable advantages for our business along the way. Advantages like a detailed understanding of your audience’s behavior patterns. Like how to make yourself more visible and accessible to that audience. How to engage them more deeply. How to meet their needs more completely. And how to do it all with greater cost-efficiency. Are they nerds? Maybe. Are they tireless, value-forging, relationship-driving, game-changers for any client seeking greater relevance, more robust ROI, and a leg up on the competition? Most definitely. And they have the numbers to prove it.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-wrap">
+    <img src="img/logo.png" alt="Stone City Digital Logo" />
+    <form action="action_page.php" method="post">
+      <div class="container graybg">
+        <h2 class="bluetx">Subscribe to our Newsletter</h2>
+        <p class="bluetx">Stay connected.</p>
+      </div>
+
+      <div class="container">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+      </div>
+
+      <div class="container">
+        <input class="bluebg" type="submit" value="Subscribe">
+      </div>
+    </form>
+    <div>
+      <a class="facebook contact_social" href="#"><img src="img/facebook.svg" alt="" height="35px" width="auto"/></a>
+      <a class="twitter contact_social" href="#"><img src="img/twitter.svg" alt="" height="35px" width="auto" /></a>
+      <a class="instagram contact_social" href="#"><img src="img/instagram.svg" alt="" height="35px" width="auto" /></a>
+    </div>
+    <p>Lafayette, Indiana 2020</p>
+  </footer>
+
+  <!--  GSAP CDN JavaScript    -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/CSSRulePlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/Draggable.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/EaselPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/MotionPathPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/PixiPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/TextPlugin.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/ScrollToPlugin.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/ScrollTrigger.min.js"></script>
+
+  <!--   Custom JavaScript    -->
+  <script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" type="text/css" media="all" />
+    <!--      Normalize CSS      -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" type="text/css" media="all" />
+
+    <!--      Custom CSS      -->
+    <link rel="stylesheet" href="../css/style.css" type="text/css" media="all" />
+    <title>Stone City Digital</title>
+  </head>
+<body>
+
+
+	<!-- Top Navigation Menu -->
+	<div class="topnav bluebg">
+		<a class="orangetx" id="logo" href="../index.html">Stone City Digital</a>
+		<!-- Navigation links (hidden by default) -->
+		<div id="myLinks" class="whitebg">
+			<a class="whitetx bluebgfade" href="../index.html">Home</a>
+			<a class="whitetx bluebgfade" href="services.html">Services</a>
+			<a class="whitetx bluebgfade" href="ourTeam.html">Our Team</a>
+			<a class="whitetx bluebgfade" href="contact.html">Contact</a>
+		</div>
+		<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+		<a href="javascript:void(0);" class="icon whitetx bluebg" onclick="toggle()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<div class="bgimg">
+
+    <h1 class="head-wrap whitetx">Services</h1>
+
+  </div>
+
+	 <div class="services bluebgfade">
+  		<div class="service orangetx strategy">
+    		<h2 onclick="strategyExpand()">Strategy</h2>
+    		<p id="strategyText" class="text">A digital marketing strategy is a plan that helps your business achieve specific digital goals through carefully selected online marketing channels such as paid, earned, and owned media.</p>
+  		</div>
+  		<div class="service orangetx">
+    		<h2 onclick="brandingExpand()">Branding</h2>
+    		<p id="brandingText" class="text">A brand identity is made up of what your brand says, what your values are, how you communicate your product. We work with a team of dedicated writers with the expertise to carry out every aspect of production from creative services to delivery. We treat every project with utmost professionalism, regardless of the budget or scope.</p>
+  		</div>
+  		<div class="service orangetx">
+  		  <h2 onclick="contentExpand()">Content</h2>
+  		  <p id="contentText" class="text">Effective websites require quality content to best represent their brand or services. If you want your website to achieve your sales goals, it must contain search engine optimized, descriptive, original, understandable content. At Thrive, we confidently offer our clients a content writing service that meets the high standards that a professional, high-quality website requires.</p>
+  		</div>
+  		<div class="service orangetx">
+  		  <h2 onclick="websiteExpand()">Website</h2>
+  		  <p id="websiteText" class="text">Custom web design that results in a site that is visually appealing, easy to use, optimized, converts visitors into customers, is mobile-friendly, and encourages growth over time.</p>
+  		</div>
+    </div>
+
+    <div class="extend">
+      <h2 class="bluetx">We have been building a stronger future for 25 years. Let us build your dream.</h2>
+      <a class="bluebg whitetx" href="contact.html">Ge in touch with our team!</a>
+    </div>
+
+  <footer class="footer-wrap">
+    <img src="../img/logo.png" alt="Stone City Digital Logo" />
+    <form action="action_page.php" method="post">
+      <div class="container graybg">
+        <h2 class="bluetx">Subscribe to our Newsletter</h2>
+        <p class="bluetx">Stay connected.</p>
+      </div>
+
+      <div class="container">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+      </div>
+
+      <div class="container">
+        <input class="bluebg" type="submit" value="Subscribe">
+      </div>
+    </form>
+    <div>
+      <a class="facebook contact_social" href="#"><img src="../img/facebook.svg" alt="" height="35px" width="auto"/></a>
+      <a class="twitter contact_social" href="#"><img src="../img/twitter.svg" alt="" height="35px" width="auto" /></a>
+      <a class="instagram contact_social" href="#"><img src="../img/instagram.svg" alt="" height="35px" width="auto" /></a>
+    </div>
+    <p>Lafayette, Indiana 2020</p>
+  </footer>
+
+
+
+  <!--  GSAP CDN JavaScript    -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+
+
+  <!--   Custom JavaScript    -->
+  <script src="../js/script.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+
+</html>
